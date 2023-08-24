@@ -14,3 +14,12 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+@font-face {
+  font-family: "Banco Regular";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Banco Regular"),
+    url("/assets/Banco Regular.woff") format("woff");
+}
