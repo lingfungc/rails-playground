@@ -313,6 +313,6 @@ Devise.setup do |config|
 
   config.navigational_formats = ["*/*", :html, :turbo_stream]
 
-  # config.omniauth :google_oauth2, ENV['GOOGLE_OAUTH_CLIENT_ID'], ENV['GOOGLE_OAUTH_CLIENT_SECRET']
   config.omniauth :google_oauth2, Rails.application.credentials[:google_oauth_client_id], Rails.application.credentials[:google_oauth_client_secret]
+  # config.omniauth :google_oauth2, ENV['GOOGLE_OAUTH_CLIENT_ID'], ENV['GOOGLE_OAUTH_CLIENT_SECRET']
 end
